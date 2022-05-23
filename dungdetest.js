@@ -3,7 +3,6 @@ var popup = document.getElementById("popup");
 var dontshowAgain = document.getElementById("show-again");
 // Get the <span> element that closes the modal
 var skip = document.getElementById("skip");
-var reTest = document.getElementById("reTest");
 localStorage.setItem("1","2")
 // When the user clicks the button, open the modal
 if (localStorage.getItem("not-show") == null) {
