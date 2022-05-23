@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#popup{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    z-index: 10;
+    
+}
+.content-box{
+    background-color:pink;
+    width: 500px;
+    height: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    font-family: "Bernice";
+    color: #886038;
+    line-height: 1.592;
+}
+.content #show-again{
+    border-radius: 5px;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bernice";
+    color: white;
+}
+.content{
+    text-align: center;
+}
+.content #skip{
+    border-radius: 5px;
+    background:#ff4d54;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bernice";
+    color: white;
+}

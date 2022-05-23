@@ -1,0 +1,126 @@
+
+.container{
+    width: 1170px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+#header{
+    background-color:#161718;
+    padding: 27px 0;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.nav{
+    flex-wrap: wrap;
+    position: relative;
+    font-family: "Montserrat";
+    top:0;
+}
+.nav-item a{
+    color: #ffffff;
+    padding: 0 27px;
+}
+.HOME a{
+    color:#57c654;
+    padding: 0 27px;
+}
+.nav-item i{
+    color: #ffffff;
+    padding: 0 27px;
+
+}
+.carousel-caption{
+    top: 42%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.carousel-caption button{
+    background-color: #56c553;
+    border-radius: 0px;
+    width: 228px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #ffffff;
+}
+.fontP{
+    font-family: "Lora";
+    margin: 30px 0;
+}
+.headline{
+    font-family: "Montserrat";
+    color:#f95353;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.carousel-inner{
+    height: 715px;
+}
+.content2{
+    padding: 0 370px;
+}
+.photo-item-row1,.photo-item-row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item .item5{
+    width: 370px;
+    height: 300px;
+    margin:15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.item1{
+    
+}
+.item{
+    background-color: #f7f7f7;
+}
+.item5{
+    background-color: #56c553;
+}
+.monst{
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.best{
+    color: #f95353;
+    font-size: 48.34px;
+}
+.lora{
+    font-family: "Lora";
+    font-weight: normal;
+    font-size: 15px;
+}
+.lora-special{
+    font-size: 20.54px;
+    font-family: "Lora";
+    font-style: italic;   
+}
+#what{
+    font-family: "Lora";
+    font-weight: normal;
+    font-size: 32.63px;
+}
+.projects{
+    font-family: "Montserrat";
+       font-weight: normal;
+    font-size: 15px;
+    color: #f95353;
+}
+#what{
+    text-align: left;
+}
+
