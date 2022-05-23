@@ -30,6 +30,3 @@ window.onclick = function (event) {
         popup.style.display = "none";
     }
 }
-reTest.onclick = function () {
-    localStorage.removeItem("not-show")
-}
